@@ -1,14 +1,13 @@
 <template>
-  <HelloWorld msg="Welcome to Your Vue.js App" />
+  <example-ref-reactive />
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
-
+import ExampleRefReactive from "@/components/ExampleRefReactive.vue";
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    ExampleRefReactive,
   },
 };
 </script>
