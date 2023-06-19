@@ -2,17 +2,20 @@
   <div>
     <example-ref-reactive />
     <example-reactive-computed />
+    <example-get-set-computed />
   </div>
 </template>
 
 <script>
 import ExampleRefReactive from "@/components/ExampleRefReactive.vue";
 import ExampleReactiveComputed from "@/components/ExampleReactiveComputed.vue";
+import ExampleGetSetComputed from "@/components/ExampleGetSetComputed.vue";
 export default {
   name: "App",
   components: {
     ExampleRefReactive,
     ExampleReactiveComputed,
+    ExampleGetSetComputed,
   },
 };
 </script>
