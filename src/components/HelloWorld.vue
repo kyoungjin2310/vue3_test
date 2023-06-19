@@ -2,11 +2,23 @@
   <button @click="count++">Count is: {{ count }}</button>
 </template>
 
-<script setup>
+<script>
 import { ref } from "vue";
 
-//ref(값)
-const count = ref(0);
+export default {
+  setup() {
+    //ref(값)
+    const count = ref(0);
+
+    function increment() {
+      count.value++;
+    }
+    return {
+      count,
+      increment,
+    };
+  },
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
