@@ -8,6 +8,7 @@
         type="checkbox"
         :id="obj.id"
         :value="obj.type"
+        :checked="obj.checked"
         v-model="checkList"
       />
       <label :for="obj.id">{{ obj.title }}</label>
@@ -18,7 +19,8 @@
 <script setup>
 import { ref } from "vue";
 
-const checkList = ref([]);
+//배열에 넣어도 check가 됨
+const checkList = ref(["1"]);
 
 const checkBoxArr = ref([
   { title: "check 1", type: "1", id: "check1", checked: true },
