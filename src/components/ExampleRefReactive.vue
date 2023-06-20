@@ -1,4 +1,5 @@
 <template>
+  <!-- reactive 사용방법 - 객체 -->
   <div>
     <button @click="state.count++">Count is: {{ state.count }}</button>
     <p>{{ state.testNum * state.count }}</p>

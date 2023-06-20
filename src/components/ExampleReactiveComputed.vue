@@ -1,4 +1,5 @@
 <template>
+  <!-- computed, reactive 사용 방법 -->
   <div>
     <p>Has published books:</p>
     <span>{{ dataLength }}</span>

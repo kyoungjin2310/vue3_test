@@ -1,4 +1,5 @@
 <template>
+  <!-- v-for로 숫자배열 만들기 -->
   <ul>
     <li v-for="(numbers, idx) in even(sets)" :key="idx">
       {{ numbers }}

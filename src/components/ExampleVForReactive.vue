@@ -1,4 +1,5 @@
 <template>
+  <!-- reactive로 배열 만드는 방법 -->
   <div>
     <ul>
       <li v-for="(val, key, idx) in obj" :key="idx">

@@ -1,4 +1,5 @@
 <template>
+  <!-- class에 computed 적용 방법 -->
   <div>
     <p :class="classObject">{{ text }}</p>
   </div>

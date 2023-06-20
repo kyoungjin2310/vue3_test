@@ -1,4 +1,5 @@
 <template>
+  <!-- computed - get, set 사용방법  -->
   <div>
     <p>full name:</p>
     <span>{{ fullName }}</span>
