@@ -1,6 +1,10 @@
 <template>
   <!-- methods hanlder -->
-  <button @click.prevent="test">test</button>
+  <div>
+    <button @click.prevent="test">test</button>
+    <button @click="testEvent('event test', $event)">event</button>
+    <button @click="testEvent('event test', $event)">event</button>
+  </div>
 </template>
 
 <script setup>
@@ -14,6 +18,15 @@ function test(event) {
   if (event) {
     alert(event.target.tagName);
   }
+}
+
+//이벤트 재활용
+function testEvent(message, event) {
+  //event가 있을 경우
+  if (event) {
+    event.preventDefault();
+  }
+  alert(message);
 }
 </script>
 
