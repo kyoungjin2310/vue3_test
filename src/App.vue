@@ -1,16 +1,16 @@
 <template>
   <div>
-    <example-v-for-reactive />
+    <example-array-rendering />
   </div>
 </template>
 
 <script>
-import ExampleVForReactive from "@/components/ExampleVForReactive.vue";
+import ExampleArrayRendering from "@/components/ExampleArrayRendering.vue";
 import "./assets/scss/style.scss";
 export default {
   name: "App",
   components: {
-    ExampleVForReactive,
+    ExampleArrayRendering,
   },
 };
 </script>
