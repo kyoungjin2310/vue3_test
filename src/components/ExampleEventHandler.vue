@@ -2,8 +2,10 @@
   <!-- methods hanlder -->
   <div>
     <button @click.prevent="test">test</button>
-    <button @click="testEvent('event test', $event)">event</button>
-    <button @click="testEvent('event test', $event)">event</button>
+    <br />
+    <button @click="testEvent('event test', $event)">event1</button>
+    <br />
+    <button @click="testEvent('event test', $event)">event2</button>
   </div>
 </template>
 
