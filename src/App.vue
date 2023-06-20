@@ -1,16 +1,16 @@
 <template>
   <div>
-    <example-input-multiple-check-box />
+    <example-select />
   </div>
 </template>
 
 <script>
-import ExampleInputMultipleCheckBox from "@/components/ExampleInputMultipleCheckBox.vue";
+import ExampleSelect from "@/components/ExampleSelect.vue";
 import "./assets/scss/style.scss";
 export default {
   name: "App",
   components: {
-    ExampleInputMultipleCheckBox,
+    ExampleSelect,
   },
 };
 </script>
