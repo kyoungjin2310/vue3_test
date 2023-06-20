@@ -7,6 +7,7 @@
 </template>
 
 <script setup>
+//reactive - 객체만 받고, 깊은(deep) 감지
 import { reactive } from "vue";
 
 let state = reactive({ count: 0, testNum: 20 });
