@@ -5,13 +5,16 @@
 </template>
 
 <script setup>
-import { ref, reactive } from "vue";
+import { ref, computed } from "vue";
 
-const text = ref("test");
-const classObject = reactive({
-  active: true,
-  color: false,
-});
+const text = ref("text");
+const isActive = ref(true);
+const error = ref(null);
+
+const classObject = computed(() => ({
+  active: isActive.value && !error.value,
+  color: error.value && error.value.type === "aaa",
+}));
 </script>
 
 <style lang="scss" scoped>
