@@ -1,5 +1,6 @@
 <template>
   <div>
+    <example-class-computed />
     <example-ref-reactive />
     <example-reactive-computed />
     <example-get-set-computed />
@@ -10,9 +11,11 @@
 import ExampleRefReactive from "@/components/ExampleRefReactive.vue";
 import ExampleReactiveComputed from "@/components/ExampleReactiveComputed.vue";
 import ExampleGetSetComputed from "@/components/ExampleGetSetComputed.vue";
+import ExampleClassComputed from "@/components/ExampleClassComputed.vue";
 export default {
   name: "App",
   components: {
+    ExampleClassComputed,
     ExampleRefReactive,
     ExampleReactiveComputed,
     ExampleGetSetComputed,

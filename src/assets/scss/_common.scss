@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;700");
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css");
+
+$txtFont: "Pretendard", sans-serif;
+$interFont: "Inter", sans-serif;
+$mainColor: #0687fd;
+@mixin boxTxtStyle(
+  $fz: 16px,
+  $fw: 400,
+  $lh: 150%,
+  $c: #717784,
+  $ls: 0,
+  $ff: $txtFont
+) {
+  font-family: $ff;
+  font-size: $fz;
+  line-height: $lh;
+  font-weight: $fw;
+  color: $c;
+  letter-spacing: $ls;
+}
+
+/*가상선택자*/
+@mixin pseudo($po: absolute, $t: auto, $l: auto, $r: auto, $b: auto) {
+  content: "";
+  display: block;
+  position: absolute;
+  top: $t;
+  left: $l;
+  right: $r;
+  bottom: $b;
+}
