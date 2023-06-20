@@ -1,16 +1,16 @@
 <template>
   <div>
-    <example-array-rendering />
+    <example-event-handler />
   </div>
 </template>
 
 <script>
-import ExampleArrayRendering from "@/components/ExampleArrayRendering.vue";
+import ExampleEventHandler from "@/components/ExampleEventHandler.vue";
 import "./assets/scss/style.scss";
 export default {
   name: "App",
   components: {
-    ExampleArrayRendering,
+    ExampleEventHandler,
   },
 };
 </script>
