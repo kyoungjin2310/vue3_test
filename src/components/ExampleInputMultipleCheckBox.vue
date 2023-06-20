@@ -1,6 +1,7 @@
 <template>
   <!-- input checkbox 여러개 -->
   <div>
+    <!-- chackList - input checkbox 선택시 input value 값이 나옴 -->
     <p>{{ checkList }}</p>
     <div v-for="(obj, idx) in checkBoxArr" :key="idx">
       <input
