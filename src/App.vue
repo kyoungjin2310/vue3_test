@@ -1,16 +1,16 @@
 <template>
   <div>
-    <example-event-handler />
+    <example-input-multiple-check-box />
   </div>
 </template>
 
 <script>
-import ExampleEventHandler from "@/components/ExampleEventHandler.vue";
+import ExampleInputMultipleCheckBox from "@/components/ExampleInputMultipleCheckBox.vue";
 import "./assets/scss/style.scss";
 export default {
   name: "App",
   components: {
-    ExampleEventHandler,
+    ExampleInputMultipleCheckBox,
   },
 };
 </script>
