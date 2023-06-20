@@ -5,6 +5,9 @@
         val:{{ val }} key:{{ key }} idx:{{ idx }}
       </li>
     </ul>
+    <ul>
+      <li v-for="(n, idx) in 100" :key="idx">val:{{ n }} idx:{{ idx }}</li>
+    </ul>
   </div>
 </template>
 

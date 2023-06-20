@@ -6,13 +6,13 @@
 
 <script>
 import ExampleVForReactive from "@/components/ExampleVForReactive.vue";
+import "./assets/scss/style.scss";
 export default {
   name: "App",
   components: {
     ExampleVForReactive,
   },
 };
-reactive;
 </script>
 
 <style>
