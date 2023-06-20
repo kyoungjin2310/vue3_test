@@ -1,26 +1,18 @@
 <template>
   <div>
-    <example-class-computed />
-    <example-ref-reactive />
-    <example-reactive-computed />
-    <example-get-set-computed />
+    <example-v-for-reactive />
   </div>
 </template>
 
 <script>
-import ExampleRefReactive from "@/components/ExampleRefReactive.vue";
-import ExampleReactiveComputed from "@/components/ExampleReactiveComputed.vue";
-import ExampleGetSetComputed from "@/components/ExampleGetSetComputed.vue";
-import ExampleClassComputed from "@/components/ExampleClassComputed.vue";
+import ExampleVForReactive from "@/components/ExampleVForReactive.vue";
 export default {
   name: "App",
   components: {
-    ExampleClassComputed,
-    ExampleRefReactive,
-    ExampleReactiveComputed,
-    ExampleGetSetComputed,
+    ExampleVForReactive,
   },
 };
+reactive;
 </script>
 
 <style>
