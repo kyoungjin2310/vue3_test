@@ -1,16 +1,16 @@
 <template>
   <div>
-    <example-select />
+    <example-lifecycle-hooks />
   </div>
 </template>
 
 <script>
-import ExampleSelect from "@/components/ExampleSelect.vue";
+import ExampleLifecycleHooks from "@/components/ExampleLifecycleHooks.vue";
 import "./assets/scss/style.scss";
 export default {
   name: "App",
   components: {
-    ExampleSelect,
+    ExampleLifecycleHooks,
   },
 };
 </script>
