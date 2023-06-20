@@ -23,7 +23,7 @@ const checkList = ref([]);
 const checkBoxArr = ref([
   { title: "check 1", type: "1", id: "check1", checked: true },
   { title: "check 2", type: "2", id: "check2", checked: false },
-  { title: "check 3", type: "3", id: "check2", checked: false },
+  { title: "check 3", type: "3", id: "check3", checked: false },
 ]);
 </script>
 
