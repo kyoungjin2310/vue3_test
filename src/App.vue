@@ -1,16 +1,16 @@
 <template>
   <div>
-    <example-dom-value />
+    <example-parents />
   </div>
 </template>
 
 <script>
-import ExampleDomValue from "@/components/DOM/ExampleDomValue.vue";
+import ExampleParents from "@/components/DOM/setData/ExampleParents.vue";
 import "./assets/scss/style.scss";
 export default {
   name: "App",
   components: {
-    ExampleDomValue,
+    ExampleParents,
   },
 };
 </script>
