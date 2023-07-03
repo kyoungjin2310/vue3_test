@@ -1,16 +1,16 @@
 <template>
   <div>
-    <example-watch />
+    <example-watch-deep />
   </div>
 </template>
 
 <script>
-import ExampleWatch from "@/components/ExampleWatch.vue";
+import ExampleWatchDeep from "@/components/ExampleWatchDeep.vue";
 import "./assets/scss/style.scss";
 export default {
   name: "App",
   components: {
-    ExampleWatch,
+    ExampleWatchDeep,
   },
 };
 </script>
