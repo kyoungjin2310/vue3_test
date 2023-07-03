@@ -1,0 +1,34 @@
+수명 주기 후크
+1. onMounted()
+- 컴포넌트가 마운트된 후 호출할 콜백
+- function onMounted(callback: () => void): void
+
+2. onUpdated()
+- data 변경 하고 나서 DOM을 업데이트된 후 호출할 콜백
+- function onUpdated(callback: () => void): void
+
+3. onUnmounted()
+- 마운트 해제된 후 호출할 콜백
+- function onUnmounted(callback: () => void): void
+
+4. onBeforeMount()
+- 마운트하기 직전에 호출할 후크
+- function onBeforeMount(callback: () => void): void
+
+5. onBeforeUpdate()
+- data 변경 하고 나서 DOM을 업데이트되기 전 호출할 콜백
+- function onBeforeUpdate(callback: () => void): void
+
+6. onBeforeUnmount()
+- 마운트 해제하기 직전에 호출할 후크
+- function onBeforeUnmount(callback: () => void): void
+
+7. onErrorCaptured()
+- 하위 구성 요소에서 전파되는 오류가 캡처되었을 때 호출할 후크를 등록
+- function onErrorCaptured(callback: ErrorCapturedHook): void
+
+type ErrorCapturedHook = (
+  err: unknown,
+  instance: ComponentPublicInstance | null,
+  info: string
+) => boolean | void
