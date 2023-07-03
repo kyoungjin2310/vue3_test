@@ -23,7 +23,6 @@ watchEffect(async () => {
 });
 
 //Vue가 업데이트한 후 watch 콜백에서 DOM에 액세스하려면 다음 flush: 'post'옵션을 지정
-
 //방식 1
 watch(data, () => {}, {
   flush: "post",
