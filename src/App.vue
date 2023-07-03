@@ -1,16 +1,16 @@
 <template>
   <div>
-    <example-watch-immediate />
+    <example-watch-effect />
   </div>
 </template>
 
 <script>
-import ExampleWatchImmediate from "@/components/ExampleWatchImmediate.vue";
+import ExampleWatchEffect from "@/components/ExampleWatchEffect.vue";
 import "./assets/scss/style.scss";
 export default {
   name: "App",
   components: {
-    ExampleWatchImmediate,
+    ExampleWatchEffect,
   },
 };
 </script>

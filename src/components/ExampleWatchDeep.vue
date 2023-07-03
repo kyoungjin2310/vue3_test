@@ -1,4 +1,5 @@
 <template>
+  <!-- watch deep -->
   <button @click.prevent="count++">{{ count }}</button>
 </template>
 

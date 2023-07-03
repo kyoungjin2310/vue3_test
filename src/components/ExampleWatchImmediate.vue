@@ -1,4 +1,5 @@
 <template>
+  <!-- watch immediate -->
   <button @click.prevent="obj.count++">{{ obj.count }}</button>
 </template>
 
