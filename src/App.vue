@@ -1,16 +1,16 @@
 <template>
   <div>
-    <example-watch-effect />
+    <example-dom-value />
   </div>
 </template>
 
 <script>
-import ExampleWatchEffect from "@/components/ExampleWatchEffect.vue";
+import ExampleDomValue from "@/components/DOM/ExampleDomValue.vue";
 import "./assets/scss/style.scss";
 export default {
   name: "App",
   components: {
-    ExampleWatchEffect,
+    ExampleDomValue,
   },
 };
 </script>
