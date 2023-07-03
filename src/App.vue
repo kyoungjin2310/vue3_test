@@ -1,16 +1,16 @@
 <template>
   <div>
-    <example-lifecycle-hooks />
+    <example-lifecycle-mounted-hooks />
   </div>
 </template>
 
 <script>
-import ExampleLifecycleHooks from "@/components/ExampleLifecycleHooks.vue";
+import ExampleLifecycleMountedHooks from "@/components/ExampleLifecycleMountedHooks.vue";
 import "./assets/scss/style.scss";
 export default {
   name: "App",
   components: {
-    ExampleLifecycleHooks,
+    ExampleLifecycleMountedHooks,
   },
 };
 </script>
