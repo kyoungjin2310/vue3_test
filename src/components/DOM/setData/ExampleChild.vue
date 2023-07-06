@@ -1,10 +1,10 @@
 <template>
   <!-- 자식컴포넌트 -->
-  <div>{{ propTitle }}</div>
+  <div @click="btnEvent">{{ propTitle }}</div>
 </template>
 
 <script setup>
-import { ref, defineExpose, defineProps } from "vue";
+import { ref, defineExpose, defineProps, defineEmits } from "vue";
 
 const a = 1;
 const b = ref(2);
@@ -16,6 +16,11 @@ const props = defineProps({
 });
 
 const propTitle = ref(props.title);
+const emit = defineEmits(["btn-event"]);
+
+const btnEvent = () => {
+  emit("btn-event");
+};
 
 //부모컴포넌트에 데이터 전달
 defineExpose({
